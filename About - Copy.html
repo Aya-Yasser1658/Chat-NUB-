@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahda University</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <a href=""><img src="imges/logo of colleage.webp" alt=""> </a>
+        <div id="menu-bar" class="fas fa-bars"  onclick="showmenu()" ></div>
+        <nav class="nav-link" id="navLink">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="abt"><a href="./About - Copy.html">About <i class="fas fa-caret-down"></i></a>
+    
+                        <div class="dropdown_menu">
+                                <ul>
+                                    <li><a href="./News- Copy.html">News</a></li>
+                                    <!--<li><a href="./services- Copy.html">Services</a></li>-->
+                                    <li><a href="./staff- Copy.html">Our Staff</a></li>
+                                </ul>
+                        </div>
+                    </li>
+                    <li><a href="./News- Copy.html">News</a></li>
+                                    <!--<li><a href="./services- Copy.html">Services</a></li>-->
+                    <li ><a href="./staff- Copy.html">Our Staff</a></li>
+                    <li><a href="./chatWithLogin.html">Chatbot</a></li>       
+                    <li><a href="https://portal.nubapps.com/">NUB Portal</a></li>
+                    <li><a href="./contact Us - Copy.html">Contact Us</a></li>
+                </ul>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </header>
+
+<section class="hero-about">
+    <div class="hero-section-about">
+        <div class="hero-img-about">
+            <img src="./imges/lake.webp" alt="">
+        </div>
+        <div class="content-about">
+            <h4>OUR COLLEGE</h4>
+            <ul>
+                <h2>Duration of Study:</h2>
+                <li>  Four years</li>
+            </ul>
+            <ul>
+                <h2>  Credit Hours:</h2>
+                <li>  146 hours</li>
+                <li>  All courses are conducted in English Degree</li>
+            </ul>
+            <ul>
+                <h2>The faculty grants students a bachelor’s degree in the following fields:</h2>
+                <li>Computer Science</li>
+                <li>Information Systems</li>
+                <li>Information Technology</li>
+                <li>Operations Research and Decision Support</li>
+            </ul>
+            <ul>
+                <h2>Why Join the Faculty of Computer Science?
+                    The faculty of Computer Science at NUB provides a unique learning environment aimed at preparing qualified professionals – both theoretically and practically – in the fields of:</h2>
+                <li>Computer Science</li>
+                <li>Information Technology</li>
+                <li>Artificial Intelligence</li>
+                <li>Data Communication</li>
+                <li>Networking and Security</li>
+                <li>Decision Support Systems</li>
+            </ul>
+            
+        </div>
+        
+    </div>
+    
+</section>
+
+<section class="Mission">
+    <div class="row">
+        <div class="coulmn">
+            <h1>OUR MISSION</h1>
+            <p>Faculty of Computer Science provides an excellent learning environment to its local,
+                regional, and international students and researchers to be competent professionals armed with theoretical 
+                and practical foundations in the fields of computers. Curricula and instructional methods are 
+                always updated to cope with the new scientific advancements. Highly qualified instructors are hired,
+                and a good infrastructure is prepared to enhance the theoretical and practical sides of the students 
+                and researchers in the different aspects of life.</p>
+        </div>
+        <div class="coulmn">
+            <h1>OUR VISION</h1>
+            <p>Faculty of Computer Science –Nahda University is an excellent faculty that is recognized in accordance with national quality 
+                standards and it aims to improve the scientific and practical levels 
+                of its undergraduate and postgraduate students and to strongly contribute in the scientific research for 
+                sustaining development of the Egyptian community as well as Africa and the Middle East region.</p>
+        </div>
+    </div>
+</section>
+
+<section class="Objectives">
+    <div class="objective-title"><h1>OUR Objectives</h1></div>
+    <div class="row">
+        
+        <div class="coulmn">
+            
+            <div class="column">
+                    <p>(1) 
+                        Preparation of specialists in computer science and information, 
+                        networks and multimedia operations research and decision support and qualified theoretical foundations 
+                        and application methodologies to enable them to compete in the development of computer information technology.</p>
+                    
+            </div>
+            <div class="column">
+                <p>(2)
+
+                    Hold scientific agreements with corresponding agencies and institution sat the local level and globalizing order to exchange views 
+                    and experiences and conduct scientific research related to the various areas of specialization of the College.</p>
+                    
+            </div>
+    </div>
+
+    <div class="coulmn">
+        <div class="column">
+            <p>(3)
+
+                Organization of conferences and specialized workshops 
+                with a view to upgrading the scientific and educational specialized cadres.</p>
+        </div>
+        <div class="column">
+            <p>(4)
+
+                Prepare graduates, according to the needs of the labor market in modern fields of computer science 
+                and information systems through specialized diplomas.</p>
+        </div>
+    </div> 
+    </div>
+    <div class="row1">
+        <div class="column1">
+        <p>(5) To provide scientific advice and practical assistance and 
+            training courses for different agencies indifferent areas of specialization.</p>
+        </div>
+    </div>
+</section>
+
+<section class="Chat-services">
+    <h1>Our Services</h1>
+    <div class="row-ch-s">
+        <div class="column-ch-s">
+            <img src="./imges/hospital.webp" alt="">
+        </div>
+        <div class="column-ch-s">
+            <img src="./imges/gm.webp" alt="">
+        </div>
+        <div class="column-ch-s">
+            <img src="./imges/bus.webp" alt="">
+        </div>
+    </div>
+</section>
+
+<script>
+    var navLink =document.getElementById("navLink");
+    function hidemenu(){
+    navLink.style.right="-200px"
+    }
+function showmenu(){
+    navLink.style.right="0px"
+}
+</script>
+<footer>
+<div class="container">
+    <div class="wrapper">
+    <div class="footer-widget">
+        <a href="#">
+        <img src="./imges/logo of colleage.webp" class="logo" />
+        </a>
+        <p class="desc">
+        JOIN US ON SOCIAL MEDIA
+        </p>
+        <ul class="socials">
+        <li>
+            <a href="#">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        </ul>
+    </div>
+    <div class="footer-widget">
+        <h6>Quick Links</h6>
+        <ul class="links">
+        <li><a href="./index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+        <li><a href="./About - Copy.html"><i class="fa-solid fa-angle-right"></i> About</a></li>
+        <li><a href="./News- Copy.html"><i class="fa-solid fa-angle-right"></i> News</a></li>
+        <li><a href="./staff- Copy.html"><i class="fa-solid fa-angle-right"></i> Staff</a></li>
+        
+        
+        </ul>
+    </div>
+    <div class="footer-widget">
+        <h6>Services &amp; Support</h6>
+        <ul class="links">
+        <li><a href="./chatWithLogin.html"><i class="fa-solid fa-angle-right"></i> Chatbot</a></li>
+        <li><a href="https://portal.nubapps.com/"><i class="fa-solid fa-angle-right"></i> NUB Portal</a></li>
+        </ul>
+    </div>
+    <div class="footer-widget">
+        <h6>Contact Us </h6>
+        <ul class="links">
+        <li><a href="./contact Us - Copy.html"><i class="fa-solid fa-angle-right"></i> Contact</a></li>
+        <li><a href="#"><i class="fa-solid fa-mobile"></i> 0156882885</a></li>
+        <li><a href="#"><i class="fa-solid fa-mobile"></i> 0125882885</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="copyright-wrapper">
+    <p>
+        <a href="#" target="blank">NUB|</a>
+        GENERATION AHEAD OF TOMORROW
+        
+    </p>
+    </div>
+</div>
+</footer>
+<script src="./js/script.js"></script>
+
+</body>
+
+</html>

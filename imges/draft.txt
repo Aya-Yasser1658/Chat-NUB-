@@ -1,0 +1,155 @@
+it's just for a responsive website
+
+/*for tablets*/
+
+@media (max-width: 900px) and (min-width: 600px){
+    #menu-bar{
+        display:initial;
+        color: black;
+        }
+        /*text h1{
+            font-size: 25px;
+        }*/
+        header  .nav-link {
+            /* width: 100%;
+            /*height: 10000vh;
+            display: block;*/
+            position: absolute;
+            top:170%;
+            margin-left: 0;
+            background: white;
+            border-top: .1rem solid black;
+            padding: 0.1rem 7rem 0.1rem 0.1rem ;
+            left:0;
+            right: 0;
+            clip-path: polygon(0 0 ,100% 0,100% 0 ,0 0);
+            
+        }
+        /*.nav-link ul li{
+            display: block;
+            top: 10px;
+            left: 10;
+        }*/
+        header .nav-link.active{
+            clip-path: polygon(0 0 ,100% 0,100% 100% ,0 100%);
+    
+        }
+        header .nav-link a{
+            width: 25rem;
+            align-items: left;
+            display: block;
+            border-radius: 0.5rem;
+            padding:1rem 8rem 1rem 0rem;
+            margin: 0.1rem 10rem 0.1rem 0rem;
+            background-color: #ececec;
+            overflow: auto;
+            transition: top 0.4s  ;
+        }
+        html{
+            font-size:40% ;
+            overflow: hidden;
+        }
+    h1 {
+        font-size: 2.5rem;
+        }
+    
+        p {
+        font-size: 1rem;
+        }
+}
+
+
+@media (max-width: 600px) {
+    #menu-bar{
+        display:initial;
+        }
+        /*text h1{
+            font-size: 25px;
+        }*/
+        header  .nav-link {
+           /* width: 100%;
+            height: 10000vh;
+            display: block;*/
+            position: absolute;
+            top:170%;
+            margin-left: 0;
+            background: white;
+            border-top: .1rem solid black;
+            padding: 0.1rem 7rem 0.1rem 0.1rem ;
+            left:0;
+            right: 0;
+            clip-path: polygon(0 0 ,100% 0,100% 0 ,0 0);
+            
+        }
+        /*.nav-link ul li{
+            display: block;
+            top: 10px;
+            left: 10;
+        }*/
+        header .nav-link.active{
+            clip-path: polygon(0 0 ,100% 0,100% 100% ,0 100%);
+    
+        }
+        header .nav-link a{
+            width: 25rem;
+            align-items: left;
+            display: block;
+            border-radius: 0.5rem;
+            padding:1rem 8rem 1rem 0rem;
+            margin: 0.1rem 10rem 0.1rem 0rem;
+            background-color: #ececec;
+            overflow: auto;
+            transition: top 0.4s  ;
+        }
+        html{
+            font-size:40% ;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        
+        p {
+            font-size: 0.9rem;
+        }
+}
+
+    /*
+.chat-i .parg p{
+    position: absolute;
+    top: 32%;
+    left: 47%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 600px;
+    
+}
+
+.chat-i .headdd p {
+    position: absolute;
+    top: 42%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    background: local;
+    color: white;
+    font-size: 50px;
+    font-weight: 600px;
+}
+.home .chat-i .btn{
+    position: absolute;
+    top: 45%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    background: local;
+    background-color:rgb(7, 56, 126);
+    font-size:17px;
+    text-align: center;
+}
+
+.chat-i .btn:hover{
+    background-color:   rgb(47, 132, 251);
+}
+*/
+

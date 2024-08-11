@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab || www.codinglabweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahda University</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Unicons -->
+   <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+ <!--   <header class="header">
+        <div id="menu-bar" class="fas fa-bars"  onclick="showmenu()" ></div>
+    <nav class="nav">
+        <a href=""><img  style="margin-top: 9px; margin-left:32px;"  src="imges/logo of colleage.webp" alt=""> </a>
+        <div class="nav-link" id="navLink">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About - Copy.html">About <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown_menu">
+                            <ul>
+                                <li><a href="./News- Copy.html">News</a></li>
+                                <li><a href="./staff- Copy.html">Our Staff</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li><a href="./chatWithLogin.html">Chatbot</a></li>       
+            <li><a href="https://portal.nubapps.com/">NUB Portal</a></li>
+            <li><a href="./contact Us - Copy.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+
+    </nav>
+    </header>-->
+
+    <header class="header">
+        <a href=""><img src="imges/logo of colleage.webp" alt=""> </a>
+        <div id="menu-bar" class="fas fa-bars"  onclick="showmenu()" ></div>
+        <nav class="nav-link" id="navLink">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="abt"><a href="./About - Copy.html">About <i class="fas fa-caret-down"></i></a>
+    
+                        <div class="dropdown_menu">
+                                <ul>
+                                    <li><a href="./News- Copy.html">News</a></li>
+                                    <!--<li><a href="./services- Copy.html">Services</a></li>-->
+                                    <li><a href="./staff- Copy.html">Our Staff</a></li>
+                                </ul>
+                        </div>
+                    </li>
+                    <li ><a href="./News- Copy.html">News</a></li>
+                                    <!--<li><a href="./services- Copy.html">Services</a></li>-->
+                    <li ><a href="./staff- Copy.html">Our Staff</a></li>
+                    <li><a href="./chatWithLogin.html">Chatbot</a></li>       
+                    <li><a href="https://portal.nubapps.com/">NUB Portal</a></li>
+                    <li><a href="./contact Us - Copy.html">Contact Us</a></li>
+                </ul>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </header>
+    <!-- Home -->
+    <section class="home">
+        <div class="chat-i">
+            <img src="./imges/NUB_016_Edit-1.webp" alt="">
+            <div class="parg"> <p>Ask anything and get answers!</p></div>
+            <div class="headdd"><p>Chat-NUB</p></div>
+            <a href="#" class="btn" onclick="showform()" id="form-open1"> Get Started</a>
+        <!-- <button class="button" id="form-open">Login</button>-->
+        
+        </div>
+    <div class="form_container">
+    <i class="uil uil-times form_close"></i>
+    <!-- Login From -->
+    <div class="form login_form">
+        <form action="#">
+        <h2>Login</h2>
+
+        <div class="input_box">
+            <input type="email" placeholder="Enter your email" required />
+            <i class="uil uil-envelope-alt email"></i>
+        </div>
+        <div class="input_box">
+            <input type="password" placeholder="Enter your password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+
+        <div class="option_field">
+            <span class="checkbox">
+            <input type="checkbox" id="check" />
+            <label for="check">Remember me</label>
+            </span>
+            <a href="#" class="forgot_pw">Forgot password?</a>
+        </div>
+
+        <button class="button">Login Now</button>
+
+        <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+        </form>
+    </div>
+
+    <!-- Signup From -->
+    <div class="form signup_form">
+        <form action="#">
+        <h2>Signup</h2>
+
+        <div class="input_box">
+            <input type="email" placeholder="Enter your email" required />
+            <i class="uil uil-envelope-alt email"></i>
+        </div>
+        <div class="input_box">
+            <input type="password" placeholder="Create password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+        <div class="input_box">
+            <input type="password" placeholder="Confirm password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+
+        <button class="button">Signup Now</button>
+
+        <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+        </form>
+    </div>
+    </div>
+    </section>
+    <section class="Intro">
+        <h1>Intro with video</h1>
+        <div class="row">
+            <video width="840" height="580"  controls>
+                <source src="./Videos/Video for website.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    
+    <section class="Features">
+        <h1>Features</h1>
+        <div class="row">
+            <div class="coulmn">
+                <div class="column">  
+                    <h4>1.Career Guidance</h4>                  
+                    <p>chatbot can provide information and guidance related to career paths, job opportunities,
+                        and educational or professional requirements for different fields.
+                        It can help users make informed decisions about their future education and career choices.</p>                   
+                </div>
+                <div class="column">  
+                    <h4>2.Multimedia Support</h4>                  
+                    <p>chatbot can support various multimedia formats such as images, videos, 
+                        and audio files to provide visual or auditory explanations of concepts. 
+                        It can also integrate with external platforms or tools for interactive simulations or virtual experiments.</p>                    
+                </div>
+                <div class="column">  
+                    <h4>3. 24/7 Availability</h4>                  
+                    <p>An educational chatbot can be available round the clock, 
+                        allowing students to seek help and access learning resources at any time convenient for them.</p>
+                        
+                </div>
+        </div>
+    
+        <div class="coulmn">
+            <img src="./imges/robot.webp" alt="">
+        </div> 
+        </div>
+    </section>
+    
+    
+    <section class="Chat-services">
+        <h1>Our Services</h1>
+        <div class="row-f">
+            <div class="column-f">
+                <img src="./imges/answer.jpg" alt="">
+                <h4>1. Answering QuestionsI</h4>
+                <p>chatbot can respond to user questions related to specific subjects, topics, or concepts. It can provide instant answers, 
+                    explanations, and examples to help users understand and clarify their queries.</p>
+            </div>
+            <div class="column-f">
+                <img src="./imges/career.webp" alt="">
+                <h4>2. Career Guidance and Counseling</h4>
+                <p>chatbot can offer guidance and information on educational and career pathways. 
+                    It can provide details about different careers, 
+                    required qualifications, job opportunities, 
+                    and advice on making informed decisions about education and career choices.</p>
+            <!-- <button class="btn-f">
+                    <a href="#">Learn More</a>
+                </button>-->
+            </div>
+            <div class="column-f">
+                <img src="./imges/integration.jpg" alt="">
+                <h4>3. Integration with Learning Management Systems</h4>
+                <p>f integrated with a learning management system (LMS),
+                    the chatbot can sync user data, track progress, and seamlessly integrate with existing educational platforms.
+                    It can provide a unified learning experience by accessing course materials,
+                    grades, and other relevant information.</p>
+                <!--
+                    <button class="btn-f">
+                    <a href="#">Learn More</a>
+                </button>-->
+            </div>
+        </div>
+    </section>
+    
+    <section class="chat-hero">
+        <div class="chat-hero-section">
+            <div class="content">
+                <h4>About us</h4>
+                <p>“Welcome to the exciting world of educational chatbots! This is an important step towards transforming the learning experience for students.
+                    Educational chatbots have the potential to revolutionize the way knowledge is accessed, understood and applied, 
+                    project's goal is to empower students and promote lifelong learning. With the right mix of technology, pedagogy,
+                    and user-centered design, your educational chatbot has the power to inspire curiosity, 
+                    foster critical thinking, and facilitate meaningful connections between learners and knowledge.</p>
+                    <button class="btn-chat">
+                    <a href="./chatbot - Copy.html">Let's Try</a>
+                </button>
+            </div>
+            <div class="hero-img">
+                <img src="./imges/chatoo.webp" alt="">
+            </div>
+        </div>
+        
+    </section>
+
+
+<footer>
+<div class="container">
+    <div class="wrapper">
+    <div class="footer-widget">
+        <a href="#">
+        <img src="./imges/logo of colleage.webp" class="logo" />
+        </a>
+        <p class="desc">
+        JOIN US ON SOCIAL MEDIA
+        </p>
+        <ul class="socials">
+        <li>
+            <a href="#">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        </ul>
+    </div>
+    <div class="footer-widget">
+        <h6>Quick Links</h6>
+        <ul class="links">
+        <li><a href="./index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+        <li><a href="./About - Copy.html"><i class="fa-solid fa-angle-right"></i> About</a></li>
+        <li><a href="./News- Copy.html"><i class="fa-solid fa-angle-right"></i> News</a></li>
+        <li><a href="./staff- Copy.html"><i class="fa-solid fa-angle-right"></i> Staff</a></li>
+        
+        
+        </ul>
+    </div>
+    <div class="footer-widget">
+        <h6>Services &amp; Support</h6>
+        <ul class="links">
+        <li><a href="./chatWithLogin.html"><i class="fa-solid fa-angle-right"></i> Chatbot</a></li>
+        <li><a href="https://portal.nubapps.com/"><i class="fa-solid fa-angle-right"></i> NUB Portal</a></li>
+        </ul>
+    </div>
+    <div class="footer-widget">
+        <h6>Contact Us </h6>
+        <ul class="links">
+        <li><a href="./contact Us - Copy.html"><i class="fa-solid fa-angle-right"></i> Contact</a></li>
+        <li><a href="#"><i class="fa-solid fa-mobile"></i> 0156882885</a></li>
+        <li><a href="#"><i class="fa-solid fa-mobile"></i> 0125882885</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="copyright-wrapper">
+    <p>
+        <a href="#" target="blank">NUB|</a>
+        GENERATION AHEAD OF TOMORROW
+        
+    </p>
+    </div>
+</div>
+</footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
